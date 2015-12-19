@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+
+	<server>
+		<!-- 项目目录 -->
+		<resourceBase>D:\work_space\robot_web\WebContent</resourceBase>
+		<!-- 项目跟路径 -->
+		<contextPath>/robot_web</contextPath>
+		<!-- 工作端口 -->
+		<work-port>8010</work-port>
+		<!-- 工作队列长度 -->
+		<work-queue-size>5000</work-queue-size>
+	</server>
+
+	<!-- 逻辑服务器的地址以及控制端口 -->
+	<nodes>
+		<node tag="1">127.0.0.1:9011</node>
+	</nodes>
+
+</node>

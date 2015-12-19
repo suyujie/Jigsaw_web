@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<roles>
+		<role id="1">superAdmin</role>
+		<role id="2">intermediateAdmin</role>
+		<role id="3">generalAdmin</role>
+	</roles>
+
+	<!-- role属性 值为role id，多个角色id用‘,’隔开，如role="1,2"，如果role为“”或null，表示没有任何角色，不可用 
+		forNode属性 表示仅供逻辑节点调用 open属性 表示开放资源 -->
+	<users>
+		<user username="admin" password="Rulesgames_Robot_19870125" role="1" />
+	</users>
+
+	<resources>
+		<!-- 无需登录，完全开放 -->
+		<openResources>
+			<resource description="图片资源" name="/images/*" />
+			<resource description="脚本和页面资源" name="/js/*.js" />
+			<resource description="jsp页面资源" name="/jsp/*.jsp" />
+			<resource description="bootstrap资源" name="/bootstrap*" />
+			<resource description="metronic模板资源" name="/metronic*" />
+			<resource description="Highchart插件资源" name="/Highcharts*" />
+			<resource description="获取图片" name="/img" />
+			<resource description="选择国际化语言" name="/i18nServlet" />
+			<resource description="管理员登陆系统" name="/login" />
+			<resource description="管理员退出登陆" name="/logout" />
+		</openResources>
+
+		<!-- forNode调用 -->
+		<forNodeResources>
+			<resource description="逻辑服务器获取所有版本" name="/forNode/version" />
+			<resource description="逻辑服务器获取游戏版本" name="/forNode/gameversion" />
+			<resource description="逻辑服务器获取xml版本" name="/forNode/xmlversion" />
+			<resource description="逻辑服务器获取res版本" name="/forNode/resversion" />
+			<resource description="xml文件" name="/forNode/xmlFile" />
+			<resource description="有效公告" name="/forNode/active_notice" />
+			<resource description="黑名单" name="/forNode/blacklist" />
+			<resource description="生效的充值包" name="/forNode/enabled_recharge_package" />
+		</forNodeResources>
+
+		<!-- 受限资源，需要登录 -->
+		<roleResources>
+			<resource description="管理员默认页" name="/index" role="1,2,3" />
+			<resource description="管理员欢迎页面" name="/welcome" role="1,2,3" />
+
+			<resource description="检查管理员用户名是否已存在" name="/user/check_username"
+				role="1" />
+			<resource description="删除管理员" name="/user/delete" role="1" />
+			<resource description="修改管理员密码" name="/user/edit_password"
+				role="1" />
+			<resource description="添加管理员" name="/user/add" role="1" />
+			<resource description="管理员列表" name="/user/list" role="1" />
+			<resource description="管理员列表" name="/user/edit" role="1" />
+
+			<resource description="玩家查询" name="/player/player" role="1,2,3" />
+			<resource description="玩家详细信息" name="/player/info" role="1,2,3" />
+			<resource description="清除玩家所有数据" name="/player/delete" role="1" />
+			<resource description="清除玩家缓存" name="/player/delete_cache"
+				role="1" />
+			<resource description="给玩家补钻" name="/player/compensate_gold"
+				role="1" />
+			<resource description="给玩家补金币" name="/player/compensate_cash"
+				role="1" />
+			<resource description="玩家反馈" name="/feedback/feedbacks"
+				role="1,2,3" />
+			<resource description="部件背包" name="/part/part_bag" role="1,2,3" />
+			<resource description="机器人背包" name="/robot/robot_bag" role="1,2,3" />
+			<resource description="芯片背包" name="/chip/chip_bag" role="1,2,3" />
+			<resource description="经验背包" name="/exp/exp_bag" role="1,2,3" />
+			<resource description="水晶背包" name="/berg/berg_bag" role="1,2,3" />
+
+			<resource description="日志信息" name="/log/system_log" role="1" />
+			<resource description="钻石消费日志" name="/log/cash_log" role="1,2,3" />
+			<resource description="金币消费日志" name="/log/gold_log" role="1,2,3" />
+			<resource description="付费日志" name="/log/pay_log" role="1,2,3" />
+			<resource description="当天付费记录" name="/log/today_pay_logs"
+				role="1,2,3" />
+
+			<resource description="统计玩家安装注册转化率" name="/statistics/player_register"
+				role="1,2,3" />
+			<resource description="统计玩家流失" name="/statistics/player_loss"
+				role="1,2,3" />
+			<resource description="统计玩家登陆数量" name="/statistics/player_login"
+				role="1,2,3" />
+			<resource description="统计玩家在线数量" name="/statistics/player_online"
+				role="1,2,3" />
+			<resource description="统计玩家留存" name="/statistics/player_retain"
+				role="1,2,3" />
+			<resource description="统计玩家付费" name="/statistics/player_pay"
+				role="1,2,3" />
+			<resource description="玩家钻石消费统计" name="/statistics/player_gold_cost"
+				role="1,2,3" />
+			<resource description="玩家数量统计" name="/statistics/player_num"
+				role="1,2,3" />
+			<resource description="PVE关卡通关率" name="/statistics/pve_pass_rate"
+				role="1,2,3" />
+			<resource description="PVP进攻获胜率统计" name="/statistics/pvp_attack_win_rate"
+				role="1,2,3" />
+			<resource description="每日任务完成率统计" name="/statistics/daily_job_complete_rate"
+				role="1,2,3" />
+			<resource description="PVP零件抽取率" name="/statistics/pvp_get_egg_rate"
+				role="1,2,3" />
+			<resource description="玩家流失点统计" name="/statistics/lost_72h_players"
+				role="1,2,3" />
+			<resource description="PVE通关时间统计" name="/statistics/pve_pass_time"
+				role="1,2,3" />
+			<resource description="主城升级所用时间统计" name="/statistics/level_upgrade_time"
+				role="1,2,3" />
+			<resource description="套装/材质百分比统计" name="/statistics/suit_quality_percentage"
+				role="1,2,3" />
+			<resource description="武器使用率统计" name="/statistics/weapon_usage_rate"
+				role="1,2,3" />
+			<resource description="玩家钻石获得统计" name="/statistics/player_gold_get"
+				role="1,2,3" />
+			<resource description="玩家付费排行榜" name="/statistics/player_pay_rank"
+				role="1,2,3" />
+			<resource description="导出数据到文件" name="/export_xls" role="1,2,3" />
+			<resource description="玩家金币获得统计" name="/statistics/player_cash_get"
+				role="1,2,3" />
+			<resource description="玩家金币消耗统计" name="/statistics/player_cash_cost"
+				role="1,2,3" />
+			<resource description="玩家设备分布统计" name="/statistics/device_range_rate"
+				role="1,2,3" />
+			<resource description="玩家渠道分布统计" name="/statistics/channel_range_rate"
+				role="1,2,3" />
+			<resource description="玩家支付成功率统计" name="/statistics/player_pay_success_rate"
+				role="1,2,3" />
+			<resource description="新玩家付费平均额统计" name="/statistics/new_player_avg_pay"
+				role="1,2,3" />
+			<resource description="金银岛金钱统计" name="/statistics/treasure_island_cash"
+				role="1,2,3" />
+			<resource description="金银岛经验统计" name="/statistics/treasure_island_exp"
+				role="1,2,3" />
+			<resource description="死亡轮盘统计" name="/statistics/death_wheel"
+				role="1,2,3" />
+			<resource description="车轮战统计" name="/statistics/berg_wheel"
+				role="1,2,3" />
+
+			<resource description="XML版本管理" name="/version/xml_versions"
+				role="1,2,3" />
+			<resource description="上传XML文件" name="/version/upload_xml"
+				role="1,2" />
+			<resource description="游戏版本管理" name="/version/game_version"
+				role="1,2,3" />
+			<resource description="修改游戏版本" name="/version/edit_game_version"
+				role="1,2" />
+			<resource description="资源版本管理" name="/version/res_versions"
+				role="1,2,3" />
+			<resource description="上传资源" name="/version/upload_res"
+				role="1,2" />
+			<resource description="查找云存储资源是否存在" name="/version/search_in_storage"
+				role="1,2" />
+
+			<resource description="公告列表" name="/notice/notice_list"
+				role="1,2,3" />
+			<resource description="添加公告" name="/notice/add" role="1,2" />
+			<resource description="编辑公告" name="/notice/edit" role="1,2" />
+			<resource description="删除公告" name="/notice/delete" role="1,2" />
+			<resource description="查看公告详情" name="/notice/view" role="1,2,3" />
+
+			<resource description="充值包列表"
+				name="/recharge_package/recharge_package_list" role="1,2,3" />
+			<resource description="添加充值包" name="/recharge_package/add"
+				role="1,2" />
+			<resource description="编辑充值包" name="/recharge_package/edit"
+				role="1,2" />
+			<resource description="删除充值包" name="/recharge_package/delete"
+				role="1,2" />
+			<resource description="查看充值包详情" name="/recharge_package/view"
+				role="1,2" />
+			<resource description="生效充值包" name="/recharge_package/enable"
+				role="1,2" />
+			<resource description="失效充值包" name="/recharge_package/disable"
+				role="1,2" />
+			<resource description="校验充值包ID" name="/recharge_package/check"
+				role="1,2,3" />
+
+			<resource description="刷新游戏版本" name="/node/reflushGameVersion"
+				role="1,2" />
+			<resource description="更新资源到云存储" name="/node/res_update_to_storage"
+				role="1,2" />
+			<resource description="通知逻辑节点刷新资源" name="/node/reflushRes"
+				role="1,2" />
+			<resource description="更新xml到云存储" name="/node/xml_update_to_storage"
+				role="1,2" />
+			<resource description="通知逻辑节点刷新xml版本" name="/node/reflushXml"
+				role="1,2" />
+			<resource description="打包最新版本文件" name="/node/pack" role="1,2" />
+			<resource description="下载最新版本包" name="/node/download_version_package"
+				role="1,2,3" />
+			<resource description="下载部分文件包" name="/node/download_checked_package"
+				role="1,2,3" />
+
+			<resource description="刷新公告，通知逻辑节点" name="/node/reflushNotice"
+				role="1,2" />
+			<resource description="刷新充值包，通知逻辑节点" name="/node/reflushRechargePackage"
+				role="1,2" />
+			<resource description="刷新黑名单" name="/node/reflushBlacklist"
+				role="1,2" />
+
+			<resource description="获取节点信息" name="/node/node_info" role="1,2,3" />
+			<resource description="数据库状态" name="/node/db" role="1,2,3" />
+			<resource description="内存状态" name="/node/memory" role="1,2,3" />
+			<resource description="线程状态" name="/node/thread" role="1,2,3" />
+			<resource description="节点运行状态控制" name="/node/nodes_run_status"
+				role="1,2,3" />
+			<resource description="逻辑节点开机" name="/node/nodes_run" role="1" />
+			<resource description="逻辑节点停止服务" name="/node/nodes_stop"
+				role="1" />
+
+			<resource description="黑名单列表" name="/blacklist/blacklist"
+				role="1,2,3" />
+			<resource description="添加黑名单" name="/blacklist/add" role="1,2" />
+			<resource description="删除黑名单" name="/blacklist/delete" role="1,2" />
+			<resource description="加黑前验证" name="/blacklist/check" role="1,2" />
+		</roleResources>
+	</resources>
+</root>

@@ -1,0 +1,701 @@
+2015-12-11 11:12:49.283 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:12:49.344 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:12:49.355 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:12:49.356 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:12:49.902 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:12:50.192 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:12:50.356 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:12:50.484 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:12:50.589 ERROR server.node.system.player.PlayerLoadData 38 readMakingData - read xml error : no this xml :D:\home\ubuntu\robot_data\robot_xml\expHomeUpDate.xml
+2015-12-11 11:12:50.589 ERROR gamecore.GameRoot 77 initAndStartSystem - playerSystem startup failed
+2015-12-11 11:12:50.616 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:13:02.998 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:13:03.392 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:13:03.398 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:14:32.312 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:14:32.362 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:14:32.366 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:14:32.367 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:14:43.303 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:14:43.349 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:14:43.353 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:14:43.354 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:14:43.815 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:14:44.100 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:14:44.130 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:14:44.148 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:14:44.230 ERROR server.node.system.player.PlayerLoadData 38 readMakingData - read xml error : no this xml :D:\home\ubuntu\robot_data\robot_xml\expHomeUpDate.xml
+2015-12-11 11:14:44.231 ERROR gamecore.GameRoot 77 initAndStartSystem - playerSystem startup failed
+2015-12-11 11:14:44.234 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:14:46.675 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:14:46.798 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:14:46.799 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:14:51.893 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:14:54.432 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:14:54.740 INFO gamecore.db.SyncDBUtil 39 execute - --execute--insert into t_online(datetime,object) values(1449763200000,[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 1, 2, 12, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0])
+2015-12-11 11:16:59.662 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:16:59.707 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:16:59.713 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:16:59.714 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:17:00.306 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:17:00.598 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:17:00.632 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:17:00.654 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:17:00.732 ERROR server.node.system.player.PlayerLoadData 38 readMakingData - read xml error : no this xml :D:\home\ubuntu\robot_data\robot_xml\expHomeUpDate.xml
+2015-12-11 11:17:00.732 ERROR gamecore.GameRoot 77 initAndStartSystem - playerSystem startup failed
+2015-12-11 11:17:00.736 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:17:03.206 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:17:03.371 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:17:03.372 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:17:08.456 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:17:10.934 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:17:11.541 INFO gamecore.db.SyncDBUtil 39 execute - --execute--update t_online set object=[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 2, 2, 12, 2, 12, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0] where datetime=1449763200000
+2015-12-11 11:17:43.475 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:17:43.523 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:17:43.527 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:17:43.527 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:17:43.982 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:17:44.267 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:17:44.299 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:17:44.318 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:17:44.446 INFO server.node.system.robot.LevelRobotData 41 readData - read part data
+2015-12-11 11:17:44.452 INFO server.node.system.robot.LevelRobotData 64 readData_levelRobot - read level robot data
+2015-12-11 11:17:44.484 INFO server.node.system.part.PartLoadData 50 readData - read part data
+2015-12-11 11:17:44.484 INFO server.node.system.part.PartLoadData 84 readData_arm - read part_arm data
+2015-12-11 11:17:44.624 INFO server.node.system.part.PartLoadData 124 readData_leg - read part_leg data
+2015-12-11 11:17:44.705 INFO server.node.system.part.PartLoadData 164 readData_body - read part_body data
+2015-12-11 11:17:44.766 INFO server.node.system.part.PartLoadData 204 readData_head - read part_head data
+2015-12-11 11:17:44.820 INFO server.node.system.part.PartLoadData 244 readData_weapon - read part_weapon data
+2015-12-11 11:17:44.885 INFO server.node.system.part.PartLoadData 284 readData_exp - read part_exp data
+2015-12-11 11:17:44.899 INFO server.node.system.part.QualityLoadData 42 readData - read QualityData data
+2015-12-11 11:17:44.899 INFO server.node.system.part.QualityLoadData 59 readData_quality - read part_arm data
+2015-12-11 11:17:44.972 INFO server.node.system.berg.BergLoadData 37 readData - read BergMaking data
+2015-12-11 11:17:45.028 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:17:47.543 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:17:47.688 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:17:47.689 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:17:47.690 ERROR server.web.system.WeaponUsageRateSystem 73 initWeapon_Type - D:\work_space\robot_web\robot_data\robot_xml/weapon_0.xml can not found!
+2015-12-11 11:17:47.690 ERROR server.web.system.WeaponUsageRateSystem 44 startup - init weapon_type error
+2015-12-11 11:17:47.710 DEBUG trigger.trigger.UserTrigger 29 start - start trigger UserTrigger
+2015-12-11 11:17:47.710 DEBUG trigger.trigger.VersionTrigger 32 start - start trigger VersionTrigger
+2015-12-11 11:17:47.710 DEBUG trigger.trigger.NoticeTrigger 30 start - start trigger UserTrigger
+2015-12-11 11:17:47.710 ERROR server.web.system.TreasureIslandExpSystem 72 initExp_num - D:\work_space\robot_web\robot_data\robot_xml/exp_0.xml can not found!
+2015-12-11 11:17:47.711 ERROR server.web.system.TreasureIslandExpSystem 45 startup - init exps error
+2015-12-11 11:17:47.711 INFO gamecore.WebRoot 429 startup - start WebRoot success
+2015-12-11 11:17:50.192 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--select * from t_user order by username desc
+2015-12-11 11:17:50.278 INFO server.BootStrap 101 main - load  security file success
+2015-12-11 11:17:50.278 INFO server.BootStrap 105 main - child system start success
+2015-12-11 11:17:50.457 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.log.SystemLogServlet succeeded
+2015-12-11 11:17:50.458 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.AddServlet succeeded
+2015-12-11 11:17:50.459 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.CheckUsernameServlet succeeded
+2015-12-11 11:17:50.459 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.DeleteUserServlet succeeded
+2015-12-11 11:17:50.460 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditPasswordServlet succeeded
+2015-12-11 11:17:50.461 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditUserServlet succeeded
+2015-12-11 11:17:50.461 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.IndexServlet succeeded
+2015-12-11 11:17:50.462 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LoginServlet succeeded
+2015-12-11 11:17:50.462 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LogoutServlet succeeded
+2015-12-11 11:17:50.463 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.UserListServlet succeeded
+2015-12-11 11:17:50.463 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.WelcomeServlet succeeded
+2015-12-11 11:17:50.532 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.berg.GetPlayerBergBagServlet succeeded
+2015-12-11 11:17:50.532 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.chip.GetPlayerChipBagServlet succeeded
+2015-12-11 11:17:50.532 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.exp.GetPlayerExpBagServlet succeeded
+2015-12-11 11:17:50.534 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.feedback.GetFeedbacksByTimeServlet succeeded
+2015-12-11 11:17:50.535 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetCashLogServlet succeeded
+2015-12-11 11:17:50.536 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetGoldLogServlet succeeded
+2015-12-11 11:17:50.537 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetPayLogServlet succeeded
+2015-12-11 11:17:50.537 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetTodayPayLogsServlet succeeded
+2015-12-11 11:17:50.539 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.part.GetPlayerPartBagServlet succeeded
+2015-12-11 11:17:50.540 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateCashServlet succeeded
+2015-12-11 11:17:50.540 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateGoldServlet succeeded
+2015-12-11 11:17:50.541 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerCacheServlet succeeded
+2015-12-11 11:17:50.542 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerServlet succeeded
+2015-12-11 11:17:50.542 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerInfoServlet succeeded
+2015-12-11 11:17:50.544 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerServlet succeeded
+2015-12-11 11:17:50.545 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.robot.GetPlayerRobotBagServlet succeeded
+2015-12-11 11:17:50.900 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.AddBlackPlayerServlet succeeded
+2015-12-11 11:17:50.901 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.CheckBlackPlayerServlet succeeded
+2015-12-11 11:17:50.902 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.DeleteBlackPlayerServlet succeeded
+2015-12-11 11:17:50.902 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.GetBlacklistServlet succeeded
+2015-12-11 11:17:50.903 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.ReflushNewBlacklistServlet succeeded
+2015-12-11 11:17:50.904 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ActiveNoticeServlet succeeded
+2015-12-11 11:17:50.904 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.BlacklistServlet succeeded
+2015-12-11 11:17:50.905 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.EnabledRechargePackageServlet succeeded
+2015-12-11 11:17:50.906 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.GameVersionServlet succeeded
+2015-12-11 11:17:50.906 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ResVersionServlet succeeded
+2015-12-11 11:17:50.907 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.VersionServlet succeeded
+2015-12-11 11:17:50.907 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlFileServlet succeeded
+2015-12-11 11:17:50.908 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlVersionServlet succeeded
+2015-12-11 11:17:50.909 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.img.ImgServlet succeeded
+2015-12-11 11:17:50.910 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeDbStatusServlet succeeded
+2015-12-11 11:17:50.911 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeInfoServlet succeeded
+2015-12-11 11:17:50.912 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeMemoryStatusServlet succeeded
+2015-12-11 11:17:50.913 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunServlet succeeded
+2015-12-11 11:17:50.914 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunStatusServlet succeeded
+2015-12-11 11:17:50.915 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesStopServlet succeeded
+2015-12-11 11:17:50.916 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeThreadStatusServlet succeeded
+2015-12-11 11:17:50.918 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.AddNoticeServlet succeeded
+2015-12-11 11:17:50.920 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.DeleteNoticeServlet succeeded
+2015-12-11 11:17:50.920 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.EditNoticeServlet succeeded
+2015-12-11 11:17:50.921 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.GetNoticeListServlet succeeded
+2015-12-11 11:17:50.922 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ReflushNoticeServlet succeeded
+2015-12-11 11:17:50.923 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ViewNoticeServlet succeeded
+2015-12-11 11:17:50.937 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.AddRechargePackageServlet succeeded
+2015-12-11 11:17:50.938 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.CheckRechargePackageServlet succeeded
+2015-12-11 11:17:50.939 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DeleteRechargePackageServlet succeeded
+2015-12-11 11:17:50.939 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DisableRechargePackageServlet succeeded
+2015-12-11 11:17:50.940 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EditRechargePackageServlet succeeded
+2015-12-11 11:17:50.941 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EnableRechargePackageServlet succeeded
+2015-12-11 11:17:50.942 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.GetRechargePackagesServlet succeeded
+2015-12-11 11:17:50.944 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ReflushRechargePackageServlet succeeded
+2015-12-11 11:17:50.945 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ViewRechargePackageServlet succeeded
+2015-12-11 11:17:50.947 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.ChannelRangeRateServlet succeeded
+2015-12-11 11:17:50.948 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.DeviceRangeRateServlet succeeded
+2015-12-11 11:17:50.949 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetBergWheelServlet succeeded
+2015-12-11 11:17:50.950 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDailyJobCompleteRateServlet succeeded
+2015-12-11 11:17:50.952 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDeathWheelServlet succeeded
+2015-12-11 11:17:50.953 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetEggRateServlet succeeded
+2015-12-11 11:17:50.954 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLevelUpgradeTimeServlet succeeded
+2015-12-11 11:17:50.955 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLost72hPlayersServlet succeeded
+2015-12-11 11:17:50.955 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetNewPlayerAveragePayByTimeServlet succeeded
+2015-12-11 11:17:50.956 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashCostByTimeServlet succeeded
+2015-12-11 11:17:50.957 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashGetByTimeServlet succeeded
+2015-12-11 11:17:50.957 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldCostByTimeServlet succeeded
+2015-12-11 11:17:50.958 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldGetByTimeServlet succeeded
+2015-12-11 11:17:50.959 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLoginByTimeServlet succeeded
+2015-12-11 11:17:50.960 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLossByTimeServlet succeeded
+2015-12-11 11:17:50.961 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerNumServlet succeeded
+2015-12-11 11:17:50.962 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerOnlineByTimeServlet succeeded
+2015-12-11 11:17:50.962 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayByTimeServlet succeeded
+2015-12-11 11:17:50.963 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayRankServlet succeeded
+2015-12-11 11:17:50.963 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPaySuccessRateByTimeServlet succeeded
+2015-12-11 11:17:50.964 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRegisterByTimeServlet succeeded
+2015-12-11 11:17:50.965 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRetainByTimeServlet succeeded
+2015-12-11 11:17:50.965 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassRateByTimeServlet succeeded
+2015-12-11 11:17:50.966 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassTimeServlet succeeded
+2015-12-11 11:17:50.967 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVPAttackWinRateServlet succeeded
+2015-12-11 11:17:50.968 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetSuitQualityPercentageServlet succeeded
+2015-12-11 11:17:50.968 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandCashServlet succeeded
+2015-12-11 11:17:50.969 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandExpServlet succeeded
+2015-12-11 11:17:50.970 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetWeaponUsageRateServlet succeeded
+2015-12-11 11:17:50.970 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.StopServerServlet succeeded
+2015-12-11 11:17:50.971 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadCheckedPackageServlet succeeded
+2015-12-11 11:17:50.972 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadPackageServlet succeeded
+2015-12-11 11:17:50.972 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.EditGameVersionServlet succeeded
+2015-12-11 11:17:50.973 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetGameVersionServlet succeeded
+2015-12-11 11:17:50.974 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetResVersionsServlet succeeded
+2015-12-11 11:17:50.975 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetXmlVersionsServlet succeeded
+2015-12-11 11:17:50.976 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.PackFileServlet succeeded
+2015-12-11 11:17:50.978 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushGameVersionServlet succeeded
+2015-12-11 11:17:50.979 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushResServlet succeeded
+2015-12-11 11:17:50.980 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushXmlServlet succeeded
+2015-12-11 11:17:50.981 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ResUpdate2StorageServlet succeeded
+2015-12-11 11:17:50.983 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.SearchFileInStorageServlet succeeded
+2015-12-11 11:17:50.984 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadResFileServlet succeeded
+2015-12-11 11:17:50.986 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadXMLFileServlet succeeded
+2015-12-11 11:17:50.987 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.XmlUpdate2StorageServlet succeeded
+2015-12-11 11:17:50.997 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: export.ExportExcelFileServlet succeeded
+2015-12-11 11:17:51.003 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: locale.servlet.I18nServlet succeeded
+2015-12-11 11:17:51.039 INFO server.NodeServer 42 startup - server start...
+2015-12-11 11:17:51.284 INFO server.NodeServer 47 startup - server start success
+2015-12-11 11:17:52.775 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:17:52.947 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:17:53.383 INFO gamecore.db.SyncDBUtil 39 execute - --execute--update t_online set object=[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 3, 2, 12, 2, 12, 2, 12, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0] where datetime=1449763200000
+2015-12-11 11:19:12.723 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:19:12.772 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:19:12.777 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:19:12.777 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:19:13.324 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:19:13.666 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:19:13.707 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:19:13.731 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:19:13.893 INFO server.node.system.robot.LevelRobotData 41 readData - read part data
+2015-12-11 11:19:13.902 INFO server.node.system.robot.LevelRobotData 64 readData_levelRobot - read level robot data
+2015-12-11 11:19:13.917 INFO server.node.system.part.PartLoadData 50 readData - read part data
+2015-12-11 11:19:13.917 INFO server.node.system.part.PartLoadData 84 readData_arm - read part_arm data
+2015-12-11 11:19:14.065 INFO server.node.system.part.PartLoadData 124 readData_leg - read part_leg data
+2015-12-11 11:19:14.153 INFO server.node.system.part.PartLoadData 164 readData_body - read part_body data
+2015-12-11 11:19:14.232 INFO server.node.system.part.PartLoadData 204 readData_head - read part_head data
+2015-12-11 11:19:14.292 INFO server.node.system.part.PartLoadData 244 readData_weapon - read part_weapon data
+2015-12-11 11:19:14.356 INFO server.node.system.part.PartLoadData 284 readData_exp - read part_exp data
+2015-12-11 11:19:14.364 INFO server.node.system.part.QualityLoadData 42 readData - read QualityData data
+2015-12-11 11:19:14.364 INFO server.node.system.part.QualityLoadData 59 readData_quality - read part_arm data
+2015-12-11 11:19:14.405 INFO server.node.system.berg.BergLoadData 37 readData - read BergMaking data
+2015-12-11 11:19:14.436 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:19:17.142 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:19:17.277 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:19:17.277 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:19:17.278 ERROR server.web.system.WeaponUsageRateSystem 73 initWeapon_Type - D:\work_space\robot_web\robot_data\robot_xml/weapon_0.xml can not found!
+2015-12-11 11:19:17.278 ERROR server.web.system.WeaponUsageRateSystem 44 startup - init weapon_type error
+2015-12-11 11:19:17.282 DEBUG trigger.trigger.UserTrigger 29 start - start trigger UserTrigger
+2015-12-11 11:19:17.283 DEBUG trigger.trigger.VersionTrigger 32 start - start trigger VersionTrigger
+2015-12-11 11:19:17.283 DEBUG trigger.trigger.NoticeTrigger 30 start - start trigger UserTrigger
+2015-12-11 11:19:17.285 ERROR server.web.system.TreasureIslandExpSystem 72 initExp_num - D:\work_space\robot_web\robot_data\robot_xml/exp_0.xml can not found!
+2015-12-11 11:19:17.285 ERROR server.web.system.TreasureIslandExpSystem 45 startup - init exps error
+2015-12-11 11:19:17.285 INFO gamecore.WebRoot 429 startup - start WebRoot success
+2015-12-11 11:19:22.370 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:19:49.306 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:19:49.352 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:19:49.357 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:19:49.357 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:19:50.191 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:19:50.462 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:19:50.493 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:19:50.512 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:19:50.620 INFO server.node.system.robot.LevelRobotData 41 readData - read part data
+2015-12-11 11:19:50.628 INFO server.node.system.robot.LevelRobotData 64 readData_levelRobot - read level robot data
+2015-12-11 11:19:50.638 INFO server.node.system.part.PartLoadData 50 readData - read part data
+2015-12-11 11:19:50.639 INFO server.node.system.part.PartLoadData 84 readData_arm - read part_arm data
+2015-12-11 11:19:50.737 INFO server.node.system.part.PartLoadData 124 readData_leg - read part_leg data
+2015-12-11 11:19:50.805 INFO server.node.system.part.PartLoadData 164 readData_body - read part_body data
+2015-12-11 11:19:50.875 INFO server.node.system.part.PartLoadData 204 readData_head - read part_head data
+2015-12-11 11:19:50.936 INFO server.node.system.part.PartLoadData 244 readData_weapon - read part_weapon data
+2015-12-11 11:19:51.011 INFO server.node.system.part.PartLoadData 284 readData_exp - read part_exp data
+2015-12-11 11:19:51.017 INFO server.node.system.part.QualityLoadData 42 readData - read QualityData data
+2015-12-11 11:19:51.018 INFO server.node.system.part.QualityLoadData 59 readData_quality - read part_arm data
+2015-12-11 11:19:51.078 INFO server.node.system.berg.BergLoadData 37 readData - read BergMaking data
+2015-12-11 11:19:51.097 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:19:57.020 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:19:57.172 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:19:57.173 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:19:57.174 ERROR server.web.system.WeaponUsageRateSystem 73 initWeapon_Type - D:\work_space\robot_web\robot_data\robot_xml/weapon_0.xml can not found!
+2015-12-11 11:19:57.174 ERROR server.web.system.WeaponUsageRateSystem 44 startup - init weapon_type error
+2015-12-11 11:19:57.178 DEBUG trigger.trigger.UserTrigger 29 start - start trigger UserTrigger
+2015-12-11 11:19:57.178 DEBUG trigger.trigger.VersionTrigger 32 start - start trigger VersionTrigger
+2015-12-11 11:19:57.178 DEBUG trigger.trigger.NoticeTrigger 30 start - start trigger UserTrigger
+2015-12-11 11:19:57.179 ERROR server.web.system.TreasureIslandExpSystem 72 initExp_num - D:\work_space\robot_web\robot_data\robot_xml/exp_0.xml can not found!
+2015-12-11 11:19:57.179 ERROR server.web.system.TreasureIslandExpSystem 45 startup - init exps error
+2015-12-11 11:19:57.179 INFO gamecore.WebRoot 429 startup - start WebRoot success
+2015-12-11 11:19:59.501 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--select * from t_user order by username desc
+2015-12-11 11:19:59.580 INFO server.BootStrap 101 main - load  security file success
+2015-12-11 11:19:59.581 INFO server.BootStrap 105 main - child system start success
+2015-12-11 11:19:59.682 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.log.SystemLogServlet succeeded
+2015-12-11 11:19:59.683 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.AddServlet succeeded
+2015-12-11 11:19:59.684 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.CheckUsernameServlet succeeded
+2015-12-11 11:19:59.684 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.DeleteUserServlet succeeded
+2015-12-11 11:19:59.685 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditPasswordServlet succeeded
+2015-12-11 11:19:59.685 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditUserServlet succeeded
+2015-12-11 11:19:59.686 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.IndexServlet succeeded
+2015-12-11 11:19:59.686 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LoginServlet succeeded
+2015-12-11 11:19:59.687 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LogoutServlet succeeded
+2015-12-11 11:19:59.688 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.UserListServlet succeeded
+2015-12-11 11:19:59.689 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.WelcomeServlet succeeded
+2015-12-11 11:19:59.698 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.berg.GetPlayerBergBagServlet succeeded
+2015-12-11 11:19:59.699 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.chip.GetPlayerChipBagServlet succeeded
+2015-12-11 11:19:59.699 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.exp.GetPlayerExpBagServlet succeeded
+2015-12-11 11:19:59.700 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.feedback.GetFeedbacksByTimeServlet succeeded
+2015-12-11 11:19:59.701 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetCashLogServlet succeeded
+2015-12-11 11:19:59.702 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetGoldLogServlet succeeded
+2015-12-11 11:19:59.703 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetPayLogServlet succeeded
+2015-12-11 11:19:59.703 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetTodayPayLogsServlet succeeded
+2015-12-11 11:19:59.705 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.part.GetPlayerPartBagServlet succeeded
+2015-12-11 11:19:59.705 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateCashServlet succeeded
+2015-12-11 11:19:59.706 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateGoldServlet succeeded
+2015-12-11 11:19:59.707 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerCacheServlet succeeded
+2015-12-11 11:19:59.707 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerServlet succeeded
+2015-12-11 11:19:59.708 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerInfoServlet succeeded
+2015-12-11 11:19:59.708 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerServlet succeeded
+2015-12-11 11:19:59.709 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.robot.GetPlayerRobotBagServlet succeeded
+2015-12-11 11:19:59.748 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.AddBlackPlayerServlet succeeded
+2015-12-11 11:19:59.749 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.CheckBlackPlayerServlet succeeded
+2015-12-11 11:19:59.751 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.DeleteBlackPlayerServlet succeeded
+2015-12-11 11:19:59.753 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.GetBlacklistServlet succeeded
+2015-12-11 11:19:59.754 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.ReflushNewBlacklistServlet succeeded
+2015-12-11 11:19:59.755 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ActiveNoticeServlet succeeded
+2015-12-11 11:19:59.756 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.BlacklistServlet succeeded
+2015-12-11 11:19:59.757 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.EnabledRechargePackageServlet succeeded
+2015-12-11 11:19:59.757 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.GameVersionServlet succeeded
+2015-12-11 11:19:59.758 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ResVersionServlet succeeded
+2015-12-11 11:19:59.759 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.VersionServlet succeeded
+2015-12-11 11:19:59.760 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlFileServlet succeeded
+2015-12-11 11:19:59.761 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlVersionServlet succeeded
+2015-12-11 11:19:59.763 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.img.ImgServlet succeeded
+2015-12-11 11:19:59.764 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeDbStatusServlet succeeded
+2015-12-11 11:19:59.765 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeInfoServlet succeeded
+2015-12-11 11:19:59.765 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeMemoryStatusServlet succeeded
+2015-12-11 11:19:59.766 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunServlet succeeded
+2015-12-11 11:19:59.766 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunStatusServlet succeeded
+2015-12-11 11:19:59.767 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesStopServlet succeeded
+2015-12-11 11:19:59.767 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeThreadStatusServlet succeeded
+2015-12-11 11:19:59.769 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.AddNoticeServlet succeeded
+2015-12-11 11:19:59.771 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.DeleteNoticeServlet succeeded
+2015-12-11 11:19:59.772 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.EditNoticeServlet succeeded
+2015-12-11 11:19:59.773 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.GetNoticeListServlet succeeded
+2015-12-11 11:19:59.774 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ReflushNoticeServlet succeeded
+2015-12-11 11:19:59.776 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ViewNoticeServlet succeeded
+2015-12-11 11:19:59.779 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.AddRechargePackageServlet succeeded
+2015-12-11 11:19:59.781 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.CheckRechargePackageServlet succeeded
+2015-12-11 11:19:59.783 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DeleteRechargePackageServlet succeeded
+2015-12-11 11:19:59.784 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DisableRechargePackageServlet succeeded
+2015-12-11 11:19:59.785 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EditRechargePackageServlet succeeded
+2015-12-11 11:19:59.787 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EnableRechargePackageServlet succeeded
+2015-12-11 11:19:59.788 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.GetRechargePackagesServlet succeeded
+2015-12-11 11:19:59.789 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ReflushRechargePackageServlet succeeded
+2015-12-11 11:19:59.790 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ViewRechargePackageServlet succeeded
+2015-12-11 11:19:59.792 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.ChannelRangeRateServlet succeeded
+2015-12-11 11:19:59.793 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.DeviceRangeRateServlet succeeded
+2015-12-11 11:19:59.795 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetBergWheelServlet succeeded
+2015-12-11 11:19:59.796 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDailyJobCompleteRateServlet succeeded
+2015-12-11 11:19:59.797 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDeathWheelServlet succeeded
+2015-12-11 11:19:59.798 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetEggRateServlet succeeded
+2015-12-11 11:19:59.799 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLevelUpgradeTimeServlet succeeded
+2015-12-11 11:19:59.800 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLost72hPlayersServlet succeeded
+2015-12-11 11:19:59.800 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetNewPlayerAveragePayByTimeServlet succeeded
+2015-12-11 11:19:59.801 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashCostByTimeServlet succeeded
+2015-12-11 11:19:59.801 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashGetByTimeServlet succeeded
+2015-12-11 11:19:59.803 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldCostByTimeServlet succeeded
+2015-12-11 11:19:59.804 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldGetByTimeServlet succeeded
+2015-12-11 11:19:59.805 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLoginByTimeServlet succeeded
+2015-12-11 11:19:59.806 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLossByTimeServlet succeeded
+2015-12-11 11:19:59.806 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerNumServlet succeeded
+2015-12-11 11:19:59.807 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerOnlineByTimeServlet succeeded
+2015-12-11 11:19:59.808 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayByTimeServlet succeeded
+2015-12-11 11:19:59.809 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayRankServlet succeeded
+2015-12-11 11:19:59.809 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPaySuccessRateByTimeServlet succeeded
+2015-12-11 11:19:59.810 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRegisterByTimeServlet succeeded
+2015-12-11 11:19:59.811 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRetainByTimeServlet succeeded
+2015-12-11 11:19:59.812 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassRateByTimeServlet succeeded
+2015-12-11 11:19:59.814 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassTimeServlet succeeded
+2015-12-11 11:19:59.816 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVPAttackWinRateServlet succeeded
+2015-12-11 11:19:59.817 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetSuitQualityPercentageServlet succeeded
+2015-12-11 11:19:59.818 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandCashServlet succeeded
+2015-12-11 11:19:59.819 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandExpServlet succeeded
+2015-12-11 11:19:59.820 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetWeaponUsageRateServlet succeeded
+2015-12-11 11:19:59.822 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.StopServerServlet succeeded
+2015-12-11 11:19:59.823 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadCheckedPackageServlet succeeded
+2015-12-11 11:19:59.824 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadPackageServlet succeeded
+2015-12-11 11:19:59.826 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.EditGameVersionServlet succeeded
+2015-12-11 11:19:59.827 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetGameVersionServlet succeeded
+2015-12-11 11:19:59.827 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetResVersionsServlet succeeded
+2015-12-11 11:19:59.828 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetXmlVersionsServlet succeeded
+2015-12-11 11:19:59.829 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.PackFileServlet succeeded
+2015-12-11 11:19:59.831 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushGameVersionServlet succeeded
+2015-12-11 11:19:59.832 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushResServlet succeeded
+2015-12-11 11:19:59.834 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushXmlServlet succeeded
+2015-12-11 11:19:59.835 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ResUpdate2StorageServlet succeeded
+2015-12-11 11:19:59.836 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.SearchFileInStorageServlet succeeded
+2015-12-11 11:19:59.838 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadResFileServlet succeeded
+2015-12-11 11:19:59.839 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadXMLFileServlet succeeded
+2015-12-11 11:19:59.841 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.XmlUpdate2StorageServlet succeeded
+2015-12-11 11:19:59.844 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: export.ExportExcelFileServlet succeeded
+2015-12-11 11:19:59.847 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: locale.servlet.I18nServlet succeeded
+2015-12-11 11:19:59.875 INFO server.NodeServer 42 startup - server start...
+2015-12-11 11:20:00.138 INFO server.NodeServer 47 startup - server start success
+2015-12-11 11:20:02.295 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:20:02.457 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:20:02.895 INFO gamecore.db.SyncDBUtil 39 execute - --execute--update t_online set object=[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 4, 2, 12, 2, 12, 2, 12, 2, 14, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0] where datetime=1449763200000
+2015-12-11 11:23:23.298 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:23:23.345 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:23:23.349 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:23:23.349 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:23:23.819 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:23:24.101 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:23:24.133 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:23:24.153 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:23:24.274 INFO server.node.system.robot.LevelRobotData 41 readData - read part data
+2015-12-11 11:23:24.280 INFO server.node.system.robot.LevelRobotData 64 readData_levelRobot - read level robot data
+2015-12-11 11:23:24.291 INFO server.node.system.part.PartLoadData 50 readData - read part data
+2015-12-11 11:23:24.292 INFO server.node.system.part.PartLoadData 84 readData_arm - read part_arm data
+2015-12-11 11:23:24.401 INFO server.node.system.part.PartLoadData 124 readData_leg - read part_leg data
+2015-12-11 11:23:24.477 INFO server.node.system.part.PartLoadData 164 readData_body - read part_body data
+2015-12-11 11:23:24.538 INFO server.node.system.part.PartLoadData 204 readData_head - read part_head data
+2015-12-11 11:23:24.592 INFO server.node.system.part.PartLoadData 244 readData_weapon - read part_weapon data
+2015-12-11 11:23:24.660 INFO server.node.system.part.PartLoadData 284 readData_exp - read part_exp data
+2015-12-11 11:23:24.667 INFO server.node.system.part.QualityLoadData 42 readData - read QualityData data
+2015-12-11 11:23:24.668 INFO server.node.system.part.QualityLoadData 59 readData_quality - read part_arm data
+2015-12-11 11:23:24.721 INFO server.node.system.berg.BergLoadData 37 readData - read BergMaking data
+2015-12-11 11:23:24.743 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:23:27.386 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:23:27.512 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:23:27.513 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:23:27.514 ERROR server.web.system.WeaponUsageRateSystem 73 initWeapon_Type - D:\work_space\robot_web\robot_data\robot_xml/weapon_0.xml can not found!
+2015-12-11 11:23:27.515 ERROR server.web.system.WeaponUsageRateSystem 44 startup - init weapon_type error
+2015-12-11 11:23:27.520 DEBUG trigger.trigger.UserTrigger 29 start - start trigger UserTrigger
+2015-12-11 11:23:27.520 DEBUG trigger.trigger.VersionTrigger 32 start - start trigger VersionTrigger
+2015-12-11 11:23:27.520 DEBUG trigger.trigger.NoticeTrigger 30 start - start trigger UserTrigger
+2015-12-11 11:23:27.520 ERROR server.web.system.TreasureIslandExpSystem 72 initExp_num - D:\work_space\robot_web\robot_data\robot_xml/exp_0.xml can not found!
+2015-12-11 11:23:27.521 ERROR server.web.system.TreasureIslandExpSystem 45 startup - init exps error
+2015-12-11 11:23:27.521 INFO gamecore.WebRoot 429 startup - start WebRoot success
+2015-12-11 11:23:29.677 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--select * from t_user order by username desc
+2015-12-11 11:23:29.778 INFO server.BootStrap 101 main - load  security file success
+2015-12-11 11:23:29.779 INFO server.BootStrap 105 main - child system start success
+2015-12-11 11:23:29.868 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.log.SystemLogServlet succeeded
+2015-12-11 11:23:29.868 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.AddServlet succeeded
+2015-12-11 11:23:29.868 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.CheckUsernameServlet succeeded
+2015-12-11 11:23:29.868 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.DeleteUserServlet succeeded
+2015-12-11 11:23:29.870 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditPasswordServlet succeeded
+2015-12-11 11:23:29.870 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditUserServlet succeeded
+2015-12-11 11:23:29.871 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.IndexServlet succeeded
+2015-12-11 11:23:29.872 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LoginServlet succeeded
+2015-12-11 11:23:29.872 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LogoutServlet succeeded
+2015-12-11 11:23:29.873 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.UserListServlet succeeded
+2015-12-11 11:23:29.873 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.WelcomeServlet succeeded
+2015-12-11 11:23:29.881 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.berg.GetPlayerBergBagServlet succeeded
+2015-12-11 11:23:29.882 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.chip.GetPlayerChipBagServlet succeeded
+2015-12-11 11:23:29.883 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.exp.GetPlayerExpBagServlet succeeded
+2015-12-11 11:23:29.883 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.feedback.GetFeedbacksByTimeServlet succeeded
+2015-12-11 11:23:29.884 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetCashLogServlet succeeded
+2015-12-11 11:23:29.885 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetGoldLogServlet succeeded
+2015-12-11 11:23:29.885 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetPayLogServlet succeeded
+2015-12-11 11:23:29.886 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetTodayPayLogsServlet succeeded
+2015-12-11 11:23:29.888 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.part.GetPlayerPartBagServlet succeeded
+2015-12-11 11:23:29.889 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateCashServlet succeeded
+2015-12-11 11:23:29.890 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateGoldServlet succeeded
+2015-12-11 11:23:29.891 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerCacheServlet succeeded
+2015-12-11 11:23:29.892 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerServlet succeeded
+2015-12-11 11:23:29.893 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerInfoServlet succeeded
+2015-12-11 11:23:29.894 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerServlet succeeded
+2015-12-11 11:23:29.895 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.robot.GetPlayerRobotBagServlet succeeded
+2015-12-11 11:23:29.929 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.AddBlackPlayerServlet succeeded
+2015-12-11 11:23:29.930 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.CheckBlackPlayerServlet succeeded
+2015-12-11 11:23:29.931 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.DeleteBlackPlayerServlet succeeded
+2015-12-11 11:23:29.931 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.GetBlacklistServlet succeeded
+2015-12-11 11:23:29.932 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.ReflushNewBlacklistServlet succeeded
+2015-12-11 11:23:29.932 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ActiveNoticeServlet succeeded
+2015-12-11 11:23:29.933 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.BlacklistServlet succeeded
+2015-12-11 11:23:29.934 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.EnabledRechargePackageServlet succeeded
+2015-12-11 11:23:29.934 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.GameVersionServlet succeeded
+2015-12-11 11:23:29.935 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ResVersionServlet succeeded
+2015-12-11 11:23:29.935 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.VersionServlet succeeded
+2015-12-11 11:23:29.936 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlFileServlet succeeded
+2015-12-11 11:23:29.937 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlVersionServlet succeeded
+2015-12-11 11:23:29.938 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.img.ImgServlet succeeded
+2015-12-11 11:23:29.939 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeDbStatusServlet succeeded
+2015-12-11 11:23:29.940 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeInfoServlet succeeded
+2015-12-11 11:23:29.941 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeMemoryStatusServlet succeeded
+2015-12-11 11:23:29.942 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunServlet succeeded
+2015-12-11 11:23:29.943 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunStatusServlet succeeded
+2015-12-11 11:23:29.944 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesStopServlet succeeded
+2015-12-11 11:23:29.945 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeThreadStatusServlet succeeded
+2015-12-11 11:23:29.947 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.AddNoticeServlet succeeded
+2015-12-11 11:23:29.949 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.DeleteNoticeServlet succeeded
+2015-12-11 11:23:29.950 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.EditNoticeServlet succeeded
+2015-12-11 11:23:29.951 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.GetNoticeListServlet succeeded
+2015-12-11 11:23:29.952 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ReflushNoticeServlet succeeded
+2015-12-11 11:23:29.953 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ViewNoticeServlet succeeded
+2015-12-11 11:23:29.956 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.AddRechargePackageServlet succeeded
+2015-12-11 11:23:29.957 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.CheckRechargePackageServlet succeeded
+2015-12-11 11:23:29.957 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DeleteRechargePackageServlet succeeded
+2015-12-11 11:23:29.958 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DisableRechargePackageServlet succeeded
+2015-12-11 11:23:29.959 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EditRechargePackageServlet succeeded
+2015-12-11 11:23:29.959 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EnableRechargePackageServlet succeeded
+2015-12-11 11:23:29.960 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.GetRechargePackagesServlet succeeded
+2015-12-11 11:23:29.960 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ReflushRechargePackageServlet succeeded
+2015-12-11 11:23:29.961 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ViewRechargePackageServlet succeeded
+2015-12-11 11:23:29.962 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.ChannelRangeRateServlet succeeded
+2015-12-11 11:23:29.963 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.DeviceRangeRateServlet succeeded
+2015-12-11 11:23:29.963 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetBergWheelServlet succeeded
+2015-12-11 11:23:29.964 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDailyJobCompleteRateServlet succeeded
+2015-12-11 11:23:29.965 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDeathWheelServlet succeeded
+2015-12-11 11:23:29.966 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetEggRateServlet succeeded
+2015-12-11 11:23:29.966 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLevelUpgradeTimeServlet succeeded
+2015-12-11 11:23:29.967 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLost72hPlayersServlet succeeded
+2015-12-11 11:23:29.967 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetNewPlayerAveragePayByTimeServlet succeeded
+2015-12-11 11:23:29.968 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashCostByTimeServlet succeeded
+2015-12-11 11:23:29.968 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashGetByTimeServlet succeeded
+2015-12-11 11:23:29.969 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldCostByTimeServlet succeeded
+2015-12-11 11:23:29.971 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldGetByTimeServlet succeeded
+2015-12-11 11:23:29.972 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLoginByTimeServlet succeeded
+2015-12-11 11:23:29.973 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLossByTimeServlet succeeded
+2015-12-11 11:23:29.973 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerNumServlet succeeded
+2015-12-11 11:23:29.974 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerOnlineByTimeServlet succeeded
+2015-12-11 11:23:29.975 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayByTimeServlet succeeded
+2015-12-11 11:23:29.976 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayRankServlet succeeded
+2015-12-11 11:23:29.977 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPaySuccessRateByTimeServlet succeeded
+2015-12-11 11:23:29.978 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRegisterByTimeServlet succeeded
+2015-12-11 11:23:29.979 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRetainByTimeServlet succeeded
+2015-12-11 11:23:29.980 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassRateByTimeServlet succeeded
+2015-12-11 11:23:29.981 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassTimeServlet succeeded
+2015-12-11 11:23:29.981 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVPAttackWinRateServlet succeeded
+2015-12-11 11:23:29.982 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetSuitQualityPercentageServlet succeeded
+2015-12-11 11:23:29.983 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandCashServlet succeeded
+2015-12-11 11:23:29.984 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandExpServlet succeeded
+2015-12-11 11:23:29.984 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetWeaponUsageRateServlet succeeded
+2015-12-11 11:23:29.985 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.StopServerServlet succeeded
+2015-12-11 11:23:29.986 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadCheckedPackageServlet succeeded
+2015-12-11 11:23:29.987 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadPackageServlet succeeded
+2015-12-11 11:23:29.989 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.EditGameVersionServlet succeeded
+2015-12-11 11:23:29.990 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetGameVersionServlet succeeded
+2015-12-11 11:23:29.991 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetResVersionsServlet succeeded
+2015-12-11 11:23:29.992 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetXmlVersionsServlet succeeded
+2015-12-11 11:23:29.993 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.PackFileServlet succeeded
+2015-12-11 11:23:29.994 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushGameVersionServlet succeeded
+2015-12-11 11:23:29.996 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushResServlet succeeded
+2015-12-11 11:23:29.997 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushXmlServlet succeeded
+2015-12-11 11:23:29.998 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ResUpdate2StorageServlet succeeded
+2015-12-11 11:23:29.999 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.SearchFileInStorageServlet succeeded
+2015-12-11 11:23:30.001 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadResFileServlet succeeded
+2015-12-11 11:23:30.002 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadXMLFileServlet succeeded
+2015-12-11 11:23:30.003 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.XmlUpdate2StorageServlet succeeded
+2015-12-11 11:23:30.007 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: export.ExportExcelFileServlet succeeded
+2015-12-11 11:23:30.010 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: locale.servlet.I18nServlet succeeded
+2015-12-11 11:23:30.037 INFO server.NodeServer 42 startup - server start...
+2015-12-11 11:23:30.260 INFO server.NodeServer 47 startup - server start success
+2015-12-11 11:23:45.005 INFO server.BootStrap 31 main - Server Web
+2015-12-11 11:23:45.048 INFO server.BootStrap 38 main - load node config file success
+2015-12-11 11:23:45.053 INFO server.BootStrap 46 main - load storage config file success
+2015-12-11 11:23:45.054 INFO server.BootStrap 52 main - Server config:
+gamecore.ConfigManager@5594a1b5
+2015-12-11 11:23:45.501 INFO server.BootStrap 61 main - **init redis is OK
+2015-12-11 11:23:45.766 INFO server.BootStrap 70 main - **init mysql OK
+2015-12-11 11:23:45.796 INFO server.BootStrap 82 main - init ExportDispatcher success
+2015-12-11 11:23:45.815 INFO server.node.system.player.PlayerLoadData 30 readMakingData - read expHomeUpDate
+2015-12-11 11:23:45.929 INFO server.node.system.robot.LevelRobotData 41 readData - read part data
+2015-12-11 11:23:45.935 INFO server.node.system.robot.LevelRobotData 64 readData_levelRobot - read level robot data
+2015-12-11 11:23:45.945 INFO server.node.system.part.PartLoadData 50 readData - read part data
+2015-12-11 11:23:45.945 INFO server.node.system.part.PartLoadData 84 readData_arm - read part_arm data
+2015-12-11 11:23:46.055 INFO server.node.system.part.PartLoadData 124 readData_leg - read part_leg data
+2015-12-11 11:23:46.118 INFO server.node.system.part.PartLoadData 164 readData_body - read part_body data
+2015-12-11 11:23:46.168 INFO server.node.system.part.PartLoadData 204 readData_head - read part_head data
+2015-12-11 11:23:46.211 INFO server.node.system.part.PartLoadData 244 readData_weapon - read part_weapon data
+2015-12-11 11:23:46.263 INFO server.node.system.part.PartLoadData 284 readData_exp - read part_exp data
+2015-12-11 11:23:46.268 INFO server.node.system.part.QualityLoadData 42 readData - read QualityData data
+2015-12-11 11:23:46.269 INFO server.node.system.part.QualityLoadData 59 readData_quality - read part_arm data
+2015-12-11 11:23:46.316 INFO server.node.system.berg.BergLoadData 37 readData - read BergMaking data
+2015-12-11 11:23:46.334 INFO server.security.SecurityRoot 63 startup - start securityRoot success
+2015-12-11 11:23:48.732 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT t FROM t_account order by t asc limit 0,1
+2015-12-11 11:23:48.891 INFO server.web.system.PlayerOnlineSystem 36 startup - playerOnlineSystem startup
+2015-12-11 11:23:48.893 INFO server.web.system.SuitQualityPercentageSystem 33 startup - SuitQualityPercentageSystem startup
+2015-12-11 11:23:48.893 ERROR server.web.system.WeaponUsageRateSystem 73 initWeapon_Type - D:\work_space\robot_web\robot_data\robot_xml/weapon_0.xml can not found!
+2015-12-11 11:23:48.894 ERROR server.web.system.WeaponUsageRateSystem 44 startup - init weapon_type error
+2015-12-11 11:23:48.897 DEBUG trigger.trigger.UserTrigger 29 start - start trigger UserTrigger
+2015-12-11 11:23:48.898 DEBUG trigger.trigger.VersionTrigger 32 start - start trigger VersionTrigger
+2015-12-11 11:23:48.898 DEBUG trigger.trigger.NoticeTrigger 30 start - start trigger UserTrigger
+2015-12-11 11:23:48.898 ERROR server.web.system.TreasureIslandExpSystem 72 initExp_num - D:\work_space\robot_web\robot_data\robot_xml/exp_0.xml can not found!
+2015-12-11 11:23:48.899 ERROR server.web.system.TreasureIslandExpSystem 45 startup - init exps error
+2015-12-11 11:23:48.899 INFO gamecore.WebRoot 429 startup - start WebRoot success
+2015-12-11 11:23:54.887 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:23:58.359 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:23:58.397 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--select * from t_user order by username desc
+2015-12-11 11:23:58.482 INFO server.BootStrap 101 main - load  security file success
+2015-12-11 11:23:58.483 INFO server.BootStrap 105 main - child system start success
+2015-12-11 11:23:58.594 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.log.SystemLogServlet succeeded
+2015-12-11 11:23:58.595 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.AddServlet succeeded
+2015-12-11 11:23:58.596 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.CheckUsernameServlet succeeded
+2015-12-11 11:23:58.596 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.DeleteUserServlet succeeded
+2015-12-11 11:23:58.597 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditPasswordServlet succeeded
+2015-12-11 11:23:58.597 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.EditUserServlet succeeded
+2015-12-11 11:23:58.598 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.IndexServlet succeeded
+2015-12-11 11:23:58.598 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LoginServlet succeeded
+2015-12-11 11:23:58.598 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.LogoutServlet succeeded
+2015-12-11 11:23:58.599 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.UserListServlet succeeded
+2015-12-11 11:23:58.600 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.security.servlet.user.WelcomeServlet succeeded
+2015-12-11 11:23:58.608 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.berg.GetPlayerBergBagServlet succeeded
+2015-12-11 11:23:58.609 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.chip.GetPlayerChipBagServlet succeeded
+2015-12-11 11:23:58.609 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.exp.GetPlayerExpBagServlet succeeded
+2015-12-11 11:23:58.610 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.feedback.GetFeedbacksByTimeServlet succeeded
+2015-12-11 11:23:58.611 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetCashLogServlet succeeded
+2015-12-11 11:23:58.612 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetGoldLogServlet succeeded
+2015-12-11 11:23:58.613 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetPayLogServlet succeeded
+2015-12-11 11:23:58.613 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.log.GetTodayPayLogsServlet succeeded
+2015-12-11 11:23:58.614 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.part.GetPlayerPartBagServlet succeeded
+2015-12-11 11:23:58.615 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateCashServlet succeeded
+2015-12-11 11:23:58.616 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.CompensateGoldServlet succeeded
+2015-12-11 11:23:58.616 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerCacheServlet succeeded
+2015-12-11 11:23:58.617 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.DeletePlayerServlet succeeded
+2015-12-11 11:23:58.618 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerInfoServlet succeeded
+2015-12-11 11:23:58.619 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.player.PlayerServlet succeeded
+2015-12-11 11:23:58.620 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.node.servlet.robot.GetPlayerRobotBagServlet succeeded
+2015-12-11 11:23:58.641 INFO gamecore.db.SyncDBUtil 39 execute - --execute--update t_online set object=[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 5, 2, 12, 2, 12, 2, 12, 2, 14, 2, 14, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0] where datetime=1449763200000
+2015-12-11 11:23:58.652 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.AddBlackPlayerServlet succeeded
+2015-12-11 11:23:58.653 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.CheckBlackPlayerServlet succeeded
+2015-12-11 11:23:58.654 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.DeleteBlackPlayerServlet succeeded
+2015-12-11 11:23:58.655 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.GetBlacklistServlet succeeded
+2015-12-11 11:23:58.656 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.blacklist.ReflushNewBlacklistServlet succeeded
+2015-12-11 11:23:58.657 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ActiveNoticeServlet succeeded
+2015-12-11 11:23:58.658 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.BlacklistServlet succeeded
+2015-12-11 11:23:58.659 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.EnabledRechargePackageServlet succeeded
+2015-12-11 11:23:58.659 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.GameVersionServlet succeeded
+2015-12-11 11:23:58.660 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.ResVersionServlet succeeded
+2015-12-11 11:23:58.660 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.VersionServlet succeeded
+2015-12-11 11:23:58.661 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlFileServlet succeeded
+2015-12-11 11:23:58.662 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.forNode.XmlVersionServlet succeeded
+2015-12-11 11:23:58.663 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.img.ImgServlet succeeded
+2015-12-11 11:23:58.663 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeDbStatusServlet succeeded
+2015-12-11 11:23:58.664 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeInfoServlet succeeded
+2015-12-11 11:23:58.664 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeMemoryStatusServlet succeeded
+2015-12-11 11:23:58.665 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunServlet succeeded
+2015-12-11 11:23:58.665 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesRunStatusServlet succeeded
+2015-12-11 11:23:58.666 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodesStopServlet succeeded
+2015-12-11 11:23:58.667 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.node.NodeThreadStatusServlet succeeded
+2015-12-11 11:23:58.670 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.AddNoticeServlet succeeded
+2015-12-11 11:23:58.671 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.DeleteNoticeServlet succeeded
+2015-12-11 11:23:58.672 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.EditNoticeServlet succeeded
+2015-12-11 11:23:58.673 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.GetNoticeListServlet succeeded
+2015-12-11 11:23:58.673 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ReflushNoticeServlet succeeded
+2015-12-11 11:23:58.674 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.notice.ViewNoticeServlet succeeded
+2015-12-11 11:23:58.676 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.AddRechargePackageServlet succeeded
+2015-12-11 11:23:58.677 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.CheckRechargePackageServlet succeeded
+2015-12-11 11:23:58.678 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DeleteRechargePackageServlet succeeded
+2015-12-11 11:23:58.679 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.DisableRechargePackageServlet succeeded
+2015-12-11 11:23:58.679 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EditRechargePackageServlet succeeded
+2015-12-11 11:23:58.680 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.EnableRechargePackageServlet succeeded
+2015-12-11 11:23:58.681 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.GetRechargePackagesServlet succeeded
+2015-12-11 11:23:58.681 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ReflushRechargePackageServlet succeeded
+2015-12-11 11:23:58.682 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.rechargePackage.ViewRechargePackageServlet succeeded
+2015-12-11 11:23:58.683 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.ChannelRangeRateServlet succeeded
+2015-12-11 11:23:58.683 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.DeviceRangeRateServlet succeeded
+2015-12-11 11:23:58.686 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetBergWheelServlet succeeded
+2015-12-11 11:23:58.687 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDailyJobCompleteRateServlet succeeded
+2015-12-11 11:23:58.688 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetDeathWheelServlet succeeded
+2015-12-11 11:23:58.689 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetEggRateServlet succeeded
+2015-12-11 11:23:58.690 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLevelUpgradeTimeServlet succeeded
+2015-12-11 11:23:58.691 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetLost72hPlayersServlet succeeded
+2015-12-11 11:23:58.693 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetNewPlayerAveragePayByTimeServlet succeeded
+2015-12-11 11:23:58.694 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashCostByTimeServlet succeeded
+2015-12-11 11:23:58.695 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerCashGetByTimeServlet succeeded
+2015-12-11 11:23:58.695 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldCostByTimeServlet succeeded
+2015-12-11 11:23:58.696 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerGoldGetByTimeServlet succeeded
+2015-12-11 11:23:58.696 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLoginByTimeServlet succeeded
+2015-12-11 11:23:58.697 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerLossByTimeServlet succeeded
+2015-12-11 11:23:58.698 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerNumServlet succeeded
+2015-12-11 11:23:58.698 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerOnlineByTimeServlet succeeded
+2015-12-11 11:23:58.698 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayByTimeServlet succeeded
+2015-12-11 11:23:58.700 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPayRankServlet succeeded
+2015-12-11 11:23:58.700 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerPaySuccessRateByTimeServlet succeeded
+2015-12-11 11:23:58.701 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRegisterByTimeServlet succeeded
+2015-12-11 11:23:58.702 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPlayerRetainByTimeServlet succeeded
+2015-12-11 11:23:58.703 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassRateByTimeServlet succeeded
+2015-12-11 11:23:58.703 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVEPassTimeServlet succeeded
+2015-12-11 11:23:58.704 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetPVPAttackWinRateServlet succeeded
+2015-12-11 11:23:58.705 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetSuitQualityPercentageServlet succeeded
+2015-12-11 11:23:58.706 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandCashServlet succeeded
+2015-12-11 11:23:58.707 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetTreasureIslandExpServlet succeeded
+2015-12-11 11:23:58.707 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.statistics.GetWeaponUsageRateServlet succeeded
+2015-12-11 11:23:58.708 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.StopServerServlet succeeded
+2015-12-11 11:23:58.708 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadCheckedPackageServlet succeeded
+2015-12-11 11:23:58.708 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.DownLoadPackageServlet succeeded
+2015-12-11 11:23:58.710 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.EditGameVersionServlet succeeded
+2015-12-11 11:23:58.712 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetGameVersionServlet succeeded
+2015-12-11 11:23:58.713 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetResVersionsServlet succeeded
+2015-12-11 11:23:58.714 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.GetXmlVersionsServlet succeeded
+2015-12-11 11:23:58.715 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.PackFileServlet succeeded
+2015-12-11 11:23:58.717 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushGameVersionServlet succeeded
+2015-12-11 11:23:58.718 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushResServlet succeeded
+2015-12-11 11:23:58.721 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ReflushXmlServlet succeeded
+2015-12-11 11:23:58.722 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.ResUpdate2StorageServlet succeeded
+2015-12-11 11:23:58.724 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.SearchFileInStorageServlet succeeded
+2015-12-11 11:23:58.725 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadResFileServlet succeeded
+2015-12-11 11:23:58.725 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.UploadXMLFileServlet succeeded
+2015-12-11 11:23:58.726 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: server.web.servlet.version.XmlUpdate2StorageServlet succeeded
+2015-12-11 11:23:58.730 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: export.ExportExcelFileServlet succeeded
+2015-12-11 11:23:58.732 INFO gamecore.servlet.ServletCapsule 59 registerServlets - register servlet: locale.servlet.I18nServlet succeeded
+2015-12-11 11:23:58.755 INFO server.NodeServer 42 startup - server start...
+2015-12-11 11:23:59.160 INFO server.NodeServer 47 startup - server start success
+2015-12-11 11:24:10.962 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--SELECT player_id FROM t_blacklist
+2015-12-11 11:24:14.206 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--SELECT * FROM t_recharge_package WHERE enable=1 order by priority
+2015-12-11 11:24:14.294 INFO server.web.servlet.forNode.EnabledRechargePackageServlet 33 doGet - result: {"enabledRechargePackages":[{"descriptions":{"en_US":"月卡测试","es_ES":"月卡测试","zh_CN":"月卡测试","zh_TW":"月卡测试"},"enable":1,"id":"chmonthcard","items":{"GOLD":1000},"names":{"en_US":"月卡测试","es_ES":"月卡测试","zh_CN":"月卡测试","zh_TW":"月卡测试"},"picUrl":"monthcard.png","prices":{"CNY":3000,"USD":499},"priority":0},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"enmonthcard","items":{"GOLD":1000},"names":{"en_US":"month card","es_ES":"month card","zh_CN":"month card","zh_TW":"month card"},"picUrl":"monthcard.png","prices":{"CNY":3000,"USD":499},"priority":0},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds100","items":{"GOLD":100},"names":{"en_US":"diamonds100","es_ES":"diamonds100","zh_CN":"diamonds100","zh_TW":"diamonds100"},"picUrl":"100.png","prices":{"CNY":600,"USD":99},"priority":2},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds100","items":{"GOLD":100},"names":{"en_US":"diamonds100","es_ES":"diamonds100","zh_CN":"diamonds100","zh_TW":"diamonds100"},"picUrl":"100.png","prices":{"CNY":600,"USD":99},"priority":2},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds500","items":{"GOLD":520},"names":{"en_US":"diamonds500","es_ES":"diamonds500","zh_CN":"diamonds500","zh_TW":"diamonds500"},"picUrl":"520.png","prices":{"CNY":3000,"USD":499},"priority":10},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds500","items":{"GOLD":520},"names":{"en_US":"500 diamonds","es_ES":"500 diamonds","zh_CN":"500 diamonds","zh_TW":"500 diamonds"},"picUrl":"520.png","prices":{"CNY":3000,"USD":499},"priority":100},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds1200","items":{"GOLD":1200},"names":{"en_US":"diamonds1200","es_ES":"diamonds1200","zh_CN":"diamonds1200","zh_TW":"diamonds1200"},"picUrl":"1200.png","prices":{"CNY":6000,"USD":999},"priority":200},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds1200","items":{"GOLD":1200},"names":{"en_US":"1200 diamonds","es_ES":"1200 diamonds","zh_CN":"1200 diamonds","zh_TW":"1200 diamonds"},"picUrl":"1200.png","prices":{"CNY":6000,"USD":999},"priority":200},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds3800","items":{"GOLD":3800},"names":{"en_US":"3800 diamonds","es_ES":"3800 diamonds","zh_CN":"3800 diamonds","zh_TW":"3800 diamonds"},"picUrl":"3800.png","prices":{"CNY":18000,"USD":2999},"priority":300},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds3800","items":{"GOLD":3800},"names":{"en_US":"diamonds3800","es_ES":"diamonds3800","zh_CN":"diamonds3800","zh_TW":"diamonds3800"},"picUrl":"3800.png","prices":{"CNY":18000,"USD":2999},"priority":350},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds6500","items":{"GOLD":6500},"names":{"en_US":"diamonds6500","es_ES":"diamonds6500","zh_CN":"diamonds6500","zh_TW":"diamonds6500"},"picUrl":"6500.png","prices":{"CNY":30000,"USD":4999},"priority":400},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds6500","items":{"GOLD":6500},"names":{"en_US":"6500 diamonds","es_ES":"6500 diamonds","zh_CN":"6500 diamonds","zh_TW":"6500 diamonds"},"picUrl":"6500.png","prices":{"CNY":30000,"USD":4999},"priority":400},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds14000","items":{"GOLD":14000},"names":{"en_US":"diamonds14000","es_ES":"diamonds14000","zh_CN":"diamonds14000","zh_TW":"diamonds14000"},"picUrl":"14000.png","prices":{"CNY":60000,"USD":9999},"priority":500},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds14000","items":{"GOLD":14000},"names":{"en_US":"14000 diamonds","es_ES":"14000 diamonds","zh_CN":"14000 diamonds","zh_TW":"14000 diamonds"},"picUrl":"14000.png","prices":{"CNY":60000,"USD":9999},"priority":500},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"chdiamonds30000","items":{"GOLD":30000},"names":{"en_US":"diamonds30000","es_ES":"diamonds30000","zh_CN":"diamonds30000","zh_TW":"diamonds30000"},"picUrl":"30000.png","prices":{"CNY":120000,"USD":19999},"priority":600},{"descriptions":{"en_US":"Rules Games","es_ES":"Rules Games","zh_CN":"Rules Games","zh_TW":"Rules Games"},"enable":1,"id":"endiamonds30000","items":{"GOLD":30000},"names":{"en_US":"30000 diamonds","es_ES":"30000 diamonds","zh_CN":"30000 diamonds","zh_TW":"30000 diamonds"},"picUrl":"30000.png","prices":{"CNY":120000,"USD":19999},"priority":600}]}
+2015-12-11 11:24:19.047 INFO gamecore.db.SyncDBUtil 174 readList - --readList2--SELECT * FROM t_notice_public WHERE FROM_UNIXTIME(begin_time/1000, '%Y-%m-%d')<=FROM_UNIXTIME(1449804258972/1000, '%Y-%m-%d') AND FROM_UNIXTIME(end_time/1000, '%Y-%m-%d')>=FROM_UNIXTIME(1449804258972/1000, '%Y-%m-%d')
+2015-12-11 11:34:07.762 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:34:08.254 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:34:08.432 INFO gamecore.db.SyncDBUtil 39 execute - --execute--update t_online set object=[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 9, 2, 12, 2, 12, 2, 12, 2, 14, 2, 14, 2, 14, 2, 14, 2, 14, 2, 14, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0] where datetime=1449763200000
+2015-12-11 11:43:55.305 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--select count(id) from t_player where online=1
+2015-12-11 11:43:55.520 INFO gamecore.db.SyncDBUtil 114 readMap - --readMap2--SELECT * FROM t_online WHERE datetime = 1449763200000
+2015-12-11 11:43:55.852 INFO gamecore.db.SyncDBUtil 39 execute - --execute--update t_online set object=[1, 0, 111, 114, 103, 46, 97, 112, 97, 99, 104, 101, 46, 99, 111, 109, 109, 111, 110, 115, 46, 99, 111, 108, 108, 101, 99, 116, 105, 111, 110, 115, 46, 109, 97, 112, 46, 76, 105, 115, 116, 79, 114, 100, 101, 114, 101, 100, 77, 97, -16, 1, 24, 2, 0, 1, 1, 106, 97, 118, 97, 46, 117, 116, 105, 108, 46, 65, 114, 114, 97, 121, 76, 105, 115, -12, 1, 0, 2, 2, 1, 1, 1, 0, 2, 4, 1, 1, 1, 0, 2, 6, 1, 1, 1, 0, 2, 8, 1, 1, 1, 0, 2, 10, 1, 1, 1, 0, 2, 12, 1, 1, 1, 0, 2, 14, 1, 1, 1, 0, 2, 16, 1, 1, 1, 0, 2, 18, 1, 1, 1, 0, 2, 20, 1, 1, 1, 0, 2, 22, 1, 1, 1, 10, 2, 12, 2, 12, 2, 12, 2, 14, 2, 14, 2, 14, 2, 14, 2, 14, 2, 14, 2, 12, 2, 24, 1, 1, 1, 0, 2, 26, 1, 1, 1, 0, 2, 28, 1, 1, 1, 0, 2, 30, 1, 1, 1, 0, 2, 32, 1, 1, 1, 0, 2, 34, 1, 1, 1, 0, 2, 36, 1, 1, 1, 0, 2, 38, 1, 1, 1, 0, 2, 40, 1, 1, 1, 0, 2, 42, 1, 1, 1, 0, 2, 44, 1, 1, 1, 0, 2, 46, 1, 1, 1, 0] where datetime=1449763200000

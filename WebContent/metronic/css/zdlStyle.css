@@ -1,0 +1,11 @@
+/* form表单样式  bootstrap.min.css */
+ 
+ .form-horizontal > .form-body > .form-group > .control-label{font-weight: bold; color:#1E7C9E; font-family:仿宋; font-size:16px;}
+ 
+ .control-span{font-weight: normal; color:#ff0000; font-family:仿宋; font-size:12px; text-align:left; }
+ 
+ .form-horizontal > .form-body > .form-group > .control-span{padding-top:7px; margin-top:0px; margin-bottom:0px; }
+ 
+ .form-tip{color:#ff0000; font-family:宋体; font-size:14px; }
+ 
+ label.form-tip{width:100%; vertical-align: middle; word-wrap:break-word; }

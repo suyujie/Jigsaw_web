@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storage>
+
+	<!-- xml文件存储加密 密钥 16位 -->
+	<storageEncryptKey>robot-rulesgames</storageEncryptKey>
+
+	<!-- 数据文件地址 -->
+	<xmlPath>D:\work_space\robot_web\robot_data\robot_xml/</xmlPath>
+	<resPath>D:\work_space\robot_web\robot_data\robot_res</resPath>
+	<versionPath>D:\work_space\robot_web\robot_data/</versionPath>
+
+	<!-- storage -->
+	<storages>
+		<platfrom tag="azure">
+			<storage tag="1">
+				<storageAccount>herobotstoragetest</storageAccount>
+				<storageAccountKey>SFkVggbu6X/6gOZFbF3v6sMHFpuvwNSZ8XftLmE6qQahw6ZZTqQKoTU4El2dhSLE7h9DaMqMuVOlKRtiBtN7kw==
+				</storageAccountKey>
+				<storageConnectionUri>http://herobotstoragetest.blob.core.chinacloudapi.cn
+				</storageConnectionUri>
+			</storage>
+		</platfrom>
+	</storages>
+
+</storage>
+
+

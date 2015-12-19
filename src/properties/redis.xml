@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root tag="cache">
+
+	<redises>
+		
+		<redis tag="1">
+			<host>ec2-52-68-160-121.ap-northeast-1.compute.amazonaws.com</host>
+			<port>6379</port>
+			<maxTotal>5120</maxTotal>
+			<maxIdle>1000</maxIdle>
+			<maxWaitMillis>1000</maxWaitMillis>
+			<testOnBorrow>true</testOnBorrow>
+			<testOnReturn>true</testOnReturn>
+			<auth></auth>
+		</redis>
+
+	</redises>
+
+
+</root>
+
+
